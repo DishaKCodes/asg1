@@ -1,0 +1,108 @@
+*{
+    text-shadow: none !important;
+}
+body {
+    background-color:#1B1B31;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+  }
+  input{
+    background-color: #3B3B4E;
+    color: #CAC9CF;
+  }
+header{
+    display : block;
+    background-color: #0A0A22;
+    width : 100%;
+    position: fixed;
+    top: 0;
+    height : auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    align-items: center;
+    color: var(--gray-00);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    height: 7.5vh;
+    align-items: center;
+    display: flex;
+}
+header img{
+    width : 14vw;
+    margin : 6vw;
+}
+.signin{
+    background-color: #FCCC4C;
+}
+.menu{
+    background-color: #0A0A22;
+    color: #FFFFFF;
+}
+.page_wrapper h1{
+    font-size: 42px;
+    font-weight: 700;
+    height: 100%;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    font-size: 2.5rem!important;
+    overflow-wrap: break-word;
+    margin: 0.6rem 0;
+    color :#F5F6F7;
+}
+.page_wrapper p{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.6rem 0;
+    line-height: 1.5rem;
+    color:#F5F6F7;
+}
+.page_wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo_row{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.logo_row{
+    margin: 10px 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+}
+.logo_row img{
+    height: 40px;
+    margin: 5px;
+}
+.as_seen_in{
+    background-color: #3C3B4E;
+    font-weight: 700;
+    height: 100%;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-size: 2.5rem!important;
+    overflow-wrap: break-word;
+    margin: 0.6rem 0;
+    color: #D2D1D6;
+    text-align: center;
+}
+h2{
+    color: #D2D1D6;
+}
